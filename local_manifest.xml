@@ -31,7 +31,7 @@
     <project path="vendor/xiaomi/miatoll" name="android_vendor_xiaomi_miatoll" remote="ub" revision="13" clone-depth="1" />
   
     <!--(Kernel Trees)-->
-    <project path="kernel/xiaomi/miatoll" name="eletron_kernel_xiaomi_miatoll" remote="ub" revision="13" clone-depth="1" />
+    <project path="kernel/xiaomi/miatoll" name="eletron_kernel_xiaomi_miatoll" remote="ub" revision="13-KSU" clone-depth="1" />
 
     <!-- (Clang)  -->
       
