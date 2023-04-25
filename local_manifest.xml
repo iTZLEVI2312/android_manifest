@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!--[ Fetching data ]-->
+
+    <!-- (Userdata) -->
+    <remote name="ub" fetch="https://github.com/iTZUDAY2312"/>
+    <remote name="rdx" fetch="https://github.com/RealN00B" />
+
+<!--[ Removing Repos ]--> 
+    <remove-project name="SuperiorOS/android_frameworks_base" />
+    <remove-project name="SuperiorOS/android_frameworks_libs_systemui" />
+    <remove-project name="SuperiorOS/android_frameworks_native" /> 
+    <remove-project name="SuperiorOS/android_vendor_superior" />
+    <remove-project name="SuperiorOS/android_vendor_support" />
+    <remove-project name="SuperiorOS/android_device_superior_sepolicy" />
+    <remove-project name="SuperiorOS/android_packages_apps_Settings" />
+    <remove-project name="SuperiorOS/android_packages_apps_SuperiorLab" />   
+    <remove-project name="SuperiorOS/android_packages_overlays_Themes" />   
+    <remove-project name="SuperiorOS/android_packages_apps_Launcher3" />   
+    <remove-project name="SuperiorOS/android_packages_apps_ThemePicker" />
+    <remove-project name="SuperiorOS/android_packages_apps_WallpaperPicker2" />   
+
+
+<!-- [ Cloning Sources ] -->
+
+    <!-- (Device Trees) -->
+    <project path="device/xiaomi/miatoll" name="android_device_xiaomi_miatoll" remote="ub" revision="sup-13" clone-depth="1" />
+    
+    <!-- (Vendor Trees) -->
+    <project path="vendor/xiaomi/miatoll" name="android_vendor_xiaomi_miatoll" remote="ub" revision="13" clone-depth="1" />
+  
+    <!--(Kernel Trees)-->
+    <project path="kernel/xiaomi/miatoll" name="eletron_kernel_xiaomi_miatoll" remote="ub" revision="ksu" clone-depth="1" />
+
+    <!-- (Clang)  -->
+      
+    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="iTZUDAY2312/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
+    <project path="prebuilts/clang/host/linux-x86/clang-azure" name="Panchajanya1999/azure-clang" remote="gitlab" revision="main" clone-depth="1" />
+
+
+<!--[ Adding Repos ]-->
+
+    <project path="vendor/xiaomi/miuicamera" name="miatoll_sm6250/vendor_xiaomi_miuicamera" remote="gitlab" revision="thirteen" />
+    <project path="frameworks/base" name="android_frameworks_base" remote="rdx" revision="test" clone-depth="1" />
+    <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="rdx" revision="thirteen" clone-depth="1" />
+    <project path="frameworks/native" name="android_frameworks_native" remote="rdx" revision="test" clone-depth="1" />
+    <project path="device/superior/sepolicy" name="android_device_superior_sepolicy" remote="rdx" revision="thirteen" clone-depth="1" />
+    <project path="vendor/superior" name="android_vendor_superior" remote="rdx" revision="test" clone-depth="1" />
+    <project path="vendor/support" name="android_vendor_support" remote="rdx" revision="thirteen" clone-depth="1" />
+    <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="rdx" revision="test" clone-depth="1" />
+    <project path="packages/apps/SuperiorLab" name="android_packages_apps_SuperiorLab" remote="rdx" revision="test" clone-depth="1" />
+    <project path="packages/overlays/Themes" name="android_packages_overlays_Themes" remote="rdx" revision="test" clone-depth="1" />
+    <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="rdx" revision="thirteen" clone-depth="1" />
+    <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="rdx" revision="thirteen" clone-depth="1" />
+    <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="rdx" revision="thirteen" clone-depth="1" />
+
+</manifest>
