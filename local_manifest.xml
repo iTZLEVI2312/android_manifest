@@ -8,18 +8,18 @@
     <remote name="rdx" fetch="https://github.com/RealN00B" />
 
 <!--[ Removing Repos ]--> 
-    <remove-project name="SuperiorOS/android_frameworks_base" />
-    <remove-project name="SuperiorOS/android_frameworks_libs_systemui" />
-    <remove-project name="SuperiorOS/android_frameworks_native" /> 
-    <remove-project name="SuperiorOS/android_vendor_superior" />
-    <remove-project name="SuperiorOS/android_vendor_support" />
-    <remove-project name="SuperiorOS/android_device_superior_sepolicy" />
-    <remove-project name="SuperiorOS/android_packages_apps_Settings" />
-    <remove-project name="SuperiorOS/android_packages_apps_SuperiorLab" />   
-    <remove-project name="SuperiorOS/android_packages_overlays_Themes" />   
-    <remove-project name="SuperiorOS/android_packages_apps_Launcher3" />   
-    <remove-project name="SuperiorOS/android_packages_apps_ThemePicker" />
-    <remove-project name="SuperiorOS/android_packages_apps_WallpaperPicker2" />   
+    <remove-project name="android_frameworks_base" />
+    <remove-project name="android_frameworks_libs_systemui" />
+    <remove-project name="android_frameworks_native" /> 
+    <remove-project name="android_vendor_superior" />
+    <remove-project name="android_vendor_support" />
+    <remove-project name="android_device_superior_sepolicy" />
+    <remove-project name="android_packages_apps_Settings" />
+    <remove-project name="android_packages_apps_SuperiorLab" />   
+    <remove-project name="android_packages_overlays_Themes" />   
+    <remove-project name="android_packages_apps_Launcher3" />   
+    <remove-project name="android_packages_apps_ThemePicker" />
+    <remove-project name="android_packages_apps_WallpaperPicker2" />   
 
 
 <!-- [ Cloning Sources ] -->
