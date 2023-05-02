@@ -5,6 +5,7 @@
 
     <!-- (Userdata) -->
     <remote name="ub" fetch="https://github.com/iTZUDAY2312"/>
+    <remote name="gitlab" fetch="https://gitlab.com" />
 
 <!--[ Removing Repos ]--> 
 
