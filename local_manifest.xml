@@ -8,7 +8,7 @@
 
 <!--[ Removing Repos ]--> 
 
-    <remove-project name="crdroidandroid/android_vendor_addons" />
+    <remove-project name="android_vendor_addons" />
 
 <!-- [ Cloning Sources ] -->
 
